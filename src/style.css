@@ -19,6 +19,7 @@ header {
 
 .header-content {
   width: 1200px;
+  height: 100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -130,7 +131,8 @@ button:hover {
 }
 
 @media (max-width: 992px) {
-  header {
+  header,
+  .header-content {
     height: fit-content;
   }
   .header-content {
